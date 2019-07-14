@@ -11,4 +11,13 @@
  * It is generally better to create a new file per style scope.
  *
  */
-@import "bootstrap"
+@import "bootstrap";
+
+
+  .user-box {
+    padding: 30px;
+    border-radius: 15px;
+    border: 1px solid #dcdcdc;
+    background-color: #f8f8ff;
+  }
+
