@@ -15,14 +15,14 @@ def index
     if @post.save
     redirect_to @post, notice: "ブログを登録しました。" 
     else
-      render :new
+    render :new
     end
   end
 
   private
 
   def post_params
-    params.require(:post).permit(:title, :body)
+    params.require(:post).permit(:title, :body, :category_id)
   end
 
   def set_post
